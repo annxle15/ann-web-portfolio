@@ -1,12 +1,30 @@
 
+.experience-item {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem; /* Add border radius */
+  margin-left: -1rem;
+  margin-right: -1rem;
+  display: flex;
+  space-between: 1.25rem;
+  transition: border-color 1s ease-in-out, border-radius 1s ease-in-out; /* Slow down and smooth the transition */
+  border: 1px solid transparent;
+  
+}
+
+.experience-item:hover {
+  border-color: #fe676e; /* Tailwind CSS pink-500 color */
+  border-radius: 1rem; 
+  padding: 1rem;/* Change border radius on hover */
+}
+
 /* CSS */
 .button-74 {
   appearance: none;
   background-color: transparent;
-  border: 1px solid #1A1A1A;
+  border: 1px solid rgb(254 103 110);
   border-radius: 15px;
   box-sizing: border-box;
-  color: #3B3B3B;
+  color: rgb(254 103 110);
   cursor: pointer;
   display: inline-block;
   font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -32,15 +50,11 @@
 
 .button-74:hover {
   color: #fff;
-  background-color: #1A1A1A;
+  background-color: rgb(254 103 110);
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
 
-.button-74:active {
-  box-shadow: none;
-  transform: translateY(0);
-}
 
 
 /*
@@ -1756,7 +1770,7 @@ video {
 }
 .border-teal-500 {
   --tw-border-opacity: 1;
-  border-color: rgb(20 184 166 / var(--tw-border-opacity));
+  border-color: rgb(254 103 110 / var(--tw-border-opacity));
 }
 .border-emerald-600\/30 {
   border-color: rgb(5 150 105 / 0.3);
@@ -2008,7 +2022,7 @@ video {
   letter-spacing: 0.05em;
 }
 .text-teal-900\/80 {
-  color: rgb(19 78 74 / 0.8);
+  color: rgb(199 56 102 / 0.8);
 }
 .text-stone-400\/30 {
   color: rgb(168 162 158 / 0.3);
@@ -2019,15 +2033,10 @@ video {
 }
 
 
-/**
-
-
-
-**/
 
 .nav-item {
   --tw-text-opacity: 1;
-  color: pink;
+  color: #c73866CC;
   font-weight: 500;
   border-bottom-width: 1px;
   transition-property: all;
@@ -2040,7 +2049,7 @@ video {
 
 }
 .text-emerald-900\/80 {
-  color: rgb(6 78 59 / 0.8);
+  color: rgb(199 56 102 / 0.8);
 }
 .text-slate-900 {
   --tw-text-opacity: 1;
