@@ -244,10 +244,10 @@ header
 /* Ann Le Title*/
 .logo span
 {
-  font-family:Andika,sans-serif !important;
-  color: #C44F69;
-  font-size: 1.6rem;
-  font-weight: bold;
+  font-family: museo-sans,sans-serif !important;
+  color: #DF2A63;
+  font-size: 2rem;
+  font-weight: 800;
   transition: all .50 ease;
 }
 
@@ -393,9 +393,10 @@ header
 
   .logo span
   {
-    font-size: 1.1rem;
-    font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif; /* 4 */
+    font-size: 2rem;
+    font-family:museo-sans,sans-serif !important;
     transition: all .50s ease;
+    font-weight: 800;
   }
 
   .mainn a
