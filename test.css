@@ -16,13 +16,13 @@
   border-radius: #cc6699; 
   padding: 1rem;/* Change border radius on hover */
 }
-.degree-detail-container {
+.business-card-container {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 15px;
 }
 .business-card {
-  width: 370px;
+  min-width: 360px;
   padding: 15px 20px;
   background-color: white;
   border: 1px solid #ddd;
