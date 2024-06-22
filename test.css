@@ -13,10 +13,64 @@
 
 .experience-item:hover {
   border-color: #C44F69; 
-  border-radius: #C44F69; 
+  border-radius: #cc6699; 
   padding: 1rem;/* Change border radius on hover */
 }
+.degree-detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.business-card {
+  width: 90%;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
 
+.top-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+.unl-logo {
+  width: 50px;
+  margin-top: 5px;
+  margin-right: 10px;
+background: url('assets/unl-logo.jpg') no-repeat center center;;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-section p {
+  margin: 0;
+}
+
+.university-name {
+  font-size: 0.85rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.degree-info {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.graduation-date {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.degree-detail {
+  font-size: 0.75rem;
+  color: #666;
+}
 /*
 Header!
 *//*hub.com/tailwindcss/tailwindcss/pull/116)
@@ -2134,7 +2188,11 @@ video {
   background-color: transparent;
 }
 .bg-stone-100\/70 {
+<<<<<<< HEAD
   background-color: rgb(245 214 217 / 0.7);
+=======
+  background-color:#fbfbfd;
+>>>>>>> 8725575b47c583123b5ed47b33abf7ea098e0093
 }
 .bg-white {
   --tw-bg-opacity: 1;
