@@ -22,8 +22,8 @@
   gap: 5px;
 }
 .business-card {
-  width: auto;
-  padding: 15px;
+  width: 370px;
+  padding: 15px 20px;
   background-color: white;
   border: 1px solid #ddd;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
