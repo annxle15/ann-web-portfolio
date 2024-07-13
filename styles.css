@@ -1,11 +1,12 @@
 @media screen and (max-width: 1400px) {
     #profile {
-        height: 60vh;
+        height: auto;
         margin-bottom: 4rem;
+        margin-top: 4rem;
     }
 
     .about-containers {
-        flex-wrap: wrap;
+
         margin-top: 5rem;
         display: flex;
     }
@@ -49,8 +50,9 @@
         height: 40vh;
     }
     #profile {
-        height: 50vh;
+        height: auto;
         margin-bottom: 0;
+        margin-top: 0;
     }
     article {
         font-size: 1rem;
