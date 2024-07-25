@@ -3302,7 +3302,7 @@ a:hover {
   height: 2rem;
 }
 
-/* BUTTON */
+/* RESUME/BUTTON */
 
 .btn-container {
   display: flex;
@@ -3314,8 +3314,9 @@ a:hover {
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
-  width: 8rem;
-  border-radius: 2rem;
+  width: 9rem;
+  border-radius: 10rem;
+  font-size: 1rem;
 }
 
 .btn-color-1, .btn-color-2 {
@@ -3354,7 +3355,7 @@ a:hover {
 .about-containers {
   margin-top: 5rem;
   gap: 1rem;
-justify-content: center;
+  justify-content: center;
 }
 
 .about-details-container {
@@ -3364,7 +3365,7 @@ justify-content: center;
 
 .about-containers, .about-details-container {
   display: flex;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 .about-pic {
