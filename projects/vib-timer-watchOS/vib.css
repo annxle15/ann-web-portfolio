@@ -16,9 +16,9 @@ body {
   }
   
   header img {
-    width: 100px; 
+    width: 200px; 
     height: auto;
-    border-radius: 15px;
+    border-radius: 60px;
     margin-right: 20px; /* Add some space between the logo and the text */
   }
   
@@ -462,7 +462,7 @@ a.download { position: relative; background: url(/assets/images/downloadAppStore
   right: 0;
   bottom: 0;
   height: 3px;  /* Thin underline */
-  background-color: #DF2A63;  /* Your desired color */
+  background-color: #fda400;  /* Your desired color */
   border-radius: 10px; /* Rounded corners */
   opacity: 0.8; /* Slight transparency for a softer look */
 }
