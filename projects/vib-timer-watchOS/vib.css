@@ -6,12 +6,26 @@ body {
   header {
     text-align: center;
     padding: 20px;
+    border-bottom: 1px solid #e8e8e8;
   }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
   header img {
-    width: 100px; /* Adjust the value to make the logo bigger or smaller */
+    width: 100px; 
     height: auto;
-    border-radius: 15px; /* Adjust thesdfldksfjlsfdkj value to make the corners more or less rounded */
+    border-radius: 15px;
+    margin-right: 20px; /* Add some space between the logo and the text */
   }
+  
+  header h1 {
+    margin: 0;
+  }
+  
   .wrapper {
     width: 85%;
     max-width: 1200px;
@@ -243,7 +257,7 @@ table td { border: 1px solid #e8e8e8; }
 @media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 
 /** Page content */
-.page-content {padding: 30px 0;flex: 1;}
+.page-content {padding: 15px 0;flex: 1;}
 
 .page-heading { font-size: 32px; }
 
@@ -434,4 +448,22 @@ a.download { position: relative; background: url(/assets/images/downloadAppStore
 .icon.main { background: url(/assets/images/icon-new.png) center center; background-size: cover; margin: 40px 20px 40px 0; width: 80px; height: 80px; float: left; }
 
 /*# sourceMappingURL=main.css.map */
+
+.sleek-underline {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 8px; /* Adds some space between text and underline */
+}
+
+.sleek-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;  /* Thin underline */
+  background-color: #DF2A63;  /* Your desired color */
+  border-radius: 10px; /* Rounded corners */
+  opacity: 0.8; /* Slight transparency for a softer look */
+}
   
