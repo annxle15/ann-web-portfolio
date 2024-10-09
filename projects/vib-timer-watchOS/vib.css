@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'ZingRustBase';
+  src: url('/fonts/ZingRustDemo-Base.woff2') format('woff2'), /* Modern browsers */
+       url('/fonts/ZingRustDemo-Base.woff') format('woff');   /* Older browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,14 +21,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'ZingRustBase', sans-serif;
   }
   
   header img {
-    width: 200px; 
+    width: 200px;
     height: auto;
-    border-radius: 60px;
+    border-radius: 35px;
     margin-right: 20px; /* Add some space between the logo and the text */
-  }
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+  }  
+
+  .logo-text {
+    font-family: 'ZingRustBase', sans-serif;
+    font-size: 48px; /* Adjust as needed */
+    color: white; /* Set text color to white */
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5); /* Soft shadow with blur and transparency */
+    font-weight: bold;
+}
+
+
   
   header h1 {
     margin: 0;
@@ -138,7 +158,6 @@ body {
     text-decoration: none;
   }
 
-  @charset "UTF-8";
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 

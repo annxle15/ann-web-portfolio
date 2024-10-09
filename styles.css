@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'ZingRustBase';
+    src: url('fonts/ZingRustDemo-Base.woff2') format('woff2'),
+         url('fonts/ZingRustDemo-Base.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @media screen and (max-width: 1400px) {
     #profile {
         height: auto;
