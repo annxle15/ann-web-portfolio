@@ -51,12 +51,27 @@
         margin-top: 5rem;
     }
 }
+
+/* Sticky iframe for ann-file.html */
+.sticky-iframe {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to control vertical positioning */
+    left: 0;  /* Adjust this value to control horizontal positioning */
+    width: 400px; /* Set the width of the iframe */
+    height: 150px; /* Set the height of the iframe */
+    border: 1px solid #e6e6e6; /* Border color and size */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    z-index: 1000; /* Keep the iframe above other elements */
+    background-color: #fff;
+  }
+  
 .experience-section {
-            max-width: 600px;
+            max-width: 700px;
             margin: 10px auto;
             background-color: #fff;
-            border-radius: 8px;
-            padding: 20px;
+            border-radius: 25px;
+            padding: 30px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             position: relative;
         }
@@ -72,7 +87,7 @@
             width: 50px;
             height: 50px;
             border-radius: 4px;
-            background-color: #ccc;
+            background-color: #fff;
         }
 
         .company-details {
@@ -116,6 +131,22 @@
             color: #0073b1;
             font-size: 0.95em;
         }
+
+        .bio-container {
+            display: flex;
+            align-items: center;
+            gap: 20px; /* Adjust the space between the image and text */
+          }
+        
+          .bio-image {
+            width: auto;
+            height: 150px;
+            border-radius: 50%;
+          }
+        
+          .bio-details {
+            flex: 1; /* Allows the details section to take up remaining space */
+          }
 
 @media screen and (max-width: 600px) {
     #contact, footer {
@@ -273,10 +304,25 @@
       
 }
 
+.arrow-link .back-arrow {
+    display: inline-flex;
+    align-items: left;
+    text-decoration: none;
+    color: #858c94;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.back-arrow:hover {
+    color: #fcc12f;
+}
+
 .show-more {
     position: absolute;
     right: 20px;  /* Adjust this value to position the button horizontally */
-    bottom: 20px; /* Adjust this value to position the button vertically */
+    bottom: 10px; /* Adjust this value to position the button vertically */
 }
 .arrow-link {
     display: flex;
@@ -290,6 +336,7 @@
     letter-spacing: 1px;
     font-size: 14px;
     text-decoration: none;
+
     
 }
 
@@ -302,6 +349,10 @@
     transform: rotate(-45deg);
     margin-left: 3px;
     transition: all .3s ease;
+}
+
+.arrow-link:visited {
+    color: #858c94;  /* Same color as the unvisited state */
 }
 
 .arrow-link > .arrow::before {
@@ -332,6 +383,42 @@
 .arrow-link:hover {
     color: #232b36;
     text-decoration: none;
+}
+
+.show-more-yellow .arrow-link:hover {
+    color: #fcc12f; /* Custom hover color */
+}
+
+.show-more-yellow .arrow-link:hover > .arrow {
+    border-color: #fcc12f; /* Arrow color on hover */
+}
+
+.show-more-yellow .arrow-link:hover > .arrow::before {
+    background-color: #fcc12f; /* Arrow 'line' color */
+}
+
+.show-more-red .arrow-link:hover {
+    color: #d00000; /* Custom hover color */
+}
+
+.show-more-red .arrow-link:hover > .arrow {
+    border-color: #d00000; /* Arrow color on hover */
+}
+
+.show-more-red .arrow-link:hover > .arrow::before {
+    background-color: #d00000; /* Arrow 'line' color */
+}
+
+.show-more-blue .arrow-link:hover {
+    color: #00268b; /* Custom hover color */
+}
+
+.show-more-blue .arrow-link:hover > .arrow {
+    border-color: #00268b; /* Arrow color on hover */
+}
+
+.show-more-blue .arrow-link:hover > .arrow::before {
+    background-color: #00268b; /* Arrow 'line' color */
 }
 
 	
