@@ -51,12 +51,36 @@ body {
 
   .logo-text {
     font-family: 'ZingRustBase', sans-serif;
-    font-size: 48px; /* Adjust as needed */
+    font-size: 1.8rem;; /* Adjust as needed */
     color: white; /* Set text color to white */
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5); /* Soft shadow with blur and transparency */
     font-weight: bold;
 }
 
+.back-arrow:visited {
+    color: #fcc12f;
+}
+header .back-arrow {
+  position: absolute;
+  top: 40px; /* Adjust this value to position the button vertically */
+  left: 40px; /* Adjust this value to position the button horizontally */
+  display: flex;
+  color: #fcc12f;
+  background-color: transparent;
+  text-transform: uppercase;
+  transition: all .3s ease;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+header .back-arrow:hover {
+  color: #01D488;
+  text-decoration: none;
+}
 
   
   header h1 {
